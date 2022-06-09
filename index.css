@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url('body_bg.jpg');
+    /* margin-bottom: 20px; */
+}
+.container{
+    width: 85%;
+    height: 1100px;
+    margin: 0% 7.5%;
+    /* background-color:red; */
+    margin-bottom: 20px;
+}
+.logo{
+    width:100%;
+    height: 100px;
+    background-color:white;
+    position: relative;
+}
+.left-logo{
+    padding: 15px;
+    position: relative;
+    float: left;
+}
+.right-logo{
+    padding: 15px;
+    position: relative;
+    float: right;
+}
+
+    /* MENU BLOCK */
+.menu{
+    width:100%;
+    height: 40px;
+    background-color:rgb(5, 36, 93);
+    position: relative;
+}
+.menu ul{list-style-type: none;}
+.menu li{color:white; display: inline-block; padding: 10px; border-right: 2px solid aqua;}
+
+
+#hindi{
+float: right;
+margin-top: 8px;
+padding: 5px 12px;
+background-color: green;
+color: white;
+}
+
+    /* INFORMATION BLOCK */
+.info{
+    width:1150px;
+    height: 50px;
+    background-color: white;
+    background-image: url('info1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+    /* INFORMATION BLOCK ENDS */
+.sub-container{
+    width: 100%;
+    height: 275px;
+    background-color:white;
+    position: relative;
+}
+
+    /* PERSONAL BANKING STARTS*/
+.personal{
+    width:50%;
+    height: 275px;
+    background-color: rgb(224, 233, 233);
+    float: left;
+    position: relative;
+}
+.personal ul{list-style-type: none; margin-top: 10px;
+}
+.personal li{color:rgb(12, 0, 0); display: inline-block; padding: 10px; 
+    border-right: 1px solid rgb(253, 0, 0); cursor: pointer;
+}
+
+#person-btn{
+    width: 100px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color:white;
+    background-color: rgba(0, 20, 85, 0.678);
+    border-radius: 5px;
+}
+     /* PERSONAL BANKING ENDS*/
+
+    /* CORPORATE BANKING STARTS*/
+.corporate{
+    width:50%;
+    height: 275px;
+    background-color: rgb(224, 233, 233);
+    float: right;
+    position: relative;
+}
+#corporate-btn{
+    width: 100px;
+    padding: 4px 8px;
+    font-size: 14px;
+    color:white;
+    background-color: rgba(0, 20, 85, 0.678);
+    border-radius: 5px;
+}
+.yono-logo{
+    padding: 10px;
+}
+
+#yono-info{
+    margin-left: 8px;
+}
+.corporate ul{list-style-type: none; margin-top: 5px;}
+.corporate li{color:rgb(12, 0, 0); display: inline-block; padding: 15px; 
+    border-right: 1px solid rgb(243, 12, 12); cursor: pointer; 
+}
+li:hover{
+    color:darkgoldenrod;
+}
+
+     /* CORPORATE BANKING ENDS*/
+
+    /* NEWS LINK */
+.news{
+    width:100%;
+    height: 30px;
+    background-color:aquamarine;
+    position: relative;
+}
+.line{
+    color: brown;
+    padding-top: 5px;
+    
+}
+
+    /* MORE USEFUL LINKS */
+.links{
+    width:100%;
+    height: 240px;
+    background-color:azure;
+    position: relative;
+}
+table{
+    margin-bottom: 20px;
+    cursor:default;
+}
+td:hover{
+    background-color: gold;
+}
+#useful-link{
+    font-size:18px;
+    font-weight: 400;
+    color: black;
+    background-color: skyblue;
+    border: 1px solid blue;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+#useful-link:hover{
+    background-color:blueviolet;
+}
+
+    /* SLIDER BLOCK */
+.slider{
+    width:100%;
+    height: 275px;
+    background-position: center;
+    background-size: cover;
+    animation: slider 13s infinite linear;
+}
+
+@keyframes slider {
+
+    0%{ background-image: url(adimage1.jpg); }
+    20%{ background-image: url(adimage2.jpg); }
+    40%{ background-image: url(adimage3.jpg); }
+    60%{ background-image: url(adimage4.jpg); }
+    80%{ background-image: url(adimage5.jpg); }
+    100%{ background-image: url(adimage6.jpg); }
+}
+
+    /* footer block */
+.footer{
+    width:100%;
+    height: 46px;
+    background-color:rgb(0, 80, 155);
+    position: relative;
+}
+#footer-left{
+    float: left;
+    color: white;
+    margin: 9px 5px;
+    font-weight: bold;
+}
+#footer-right{
+    float: right;
+    color: white;
+    margin: 9px 5px;
+    font-weight: bold;
+}
